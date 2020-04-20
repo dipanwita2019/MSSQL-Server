@@ -6,10 +6,10 @@ I am using MacOS, so installation of SQL-server has to be done by running docker
 # Pull the docker image and run the docker container (MSSQL server)
 docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=yourStrong(!)Password' -e 'MSSQL_PID=Express' -p 1433:1433 -d mcr.microsoft.com/mssql/server:2017-latest-ubuntu
 
-user : SA
-password : yourStrong(!)Password
-Left (1433) : port in the host machine 
-Right (1433) : port to the SQL docker container
+user : SA <br/>
+password : yourStrong(!)Password <br/>
+Left (1433) : port in the host machine <br/>
+Right (1433) : port to the SQL docker container <br/>
 
 # List all the running docker containers (check if the container is running and note the container id)
 docker ps -a
@@ -20,10 +20,10 @@ https://docs.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studi
 
 After the download and installation, open the Azure Studio and start a new connection:
 
-Connection Type: Microsoft SQL Server
-Server: localhost
-Username: sa
-Password:yourStrong(!)Password
+Connection Type: Microsoft SQL Server <br/>
+Server: localhost <br/>
+Username: sa <br/>
+Password:yourStrong(!)Password <br/>
 
 Hit connect and you will be able to start Azure Data Studio.
 
@@ -33,10 +33,10 @@ https://razorsql.com/download.html
 
 After the download and installation, open RazorSQL and start a new connection.
 
-Connection Profile name: <whatever you want>
-login:sa
-password: yourStrong(!)Password
-host: localhost
+Connection Profile name: <whatever you want> <br/>
+login:sa <br/>
+password: yourStrong(!)Password <br/>
+host: localhost <br/>
   
 Hit connect and start using Razor SQL.
 
