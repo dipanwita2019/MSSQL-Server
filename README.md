@@ -14,7 +14,7 @@ Right (1433) : port to the SQL docker container <br/>
 # List all the running docker containers (check if the container is running and note the container id)
 docker ps -a
 
-# Download Azure Data Studio 
+# Use Azure Data Studio to access the SQL server
 go to:
 https://docs.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio?view=sql-server-ver15
 
