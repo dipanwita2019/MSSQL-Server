@@ -43,7 +43,7 @@ host: localhost <br/>
 Hit connect and start using Razor SQL.
 
 
-
+NOTE: You can also use SQL Pro Studio for Macos. The installations and the connection are pretty starightforward.
 
 
 
