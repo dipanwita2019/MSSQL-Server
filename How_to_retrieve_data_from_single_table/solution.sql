@@ -30,7 +30,7 @@ Select VendorContactLName + ',' + VendorContactFName AS FullName from AP.dbo.Ven
 
 /*Exercise - 7:*/
 
-
+select * from dbo.Invoices where (InvoiceTotal - (PaymentTotal + CreditTotal) > 0 and PaymentDate is NULL) or (InvoiceTotal - (PaymentTotal + CreditTotal)<=0 and PaymentDate is not NULL) 
 
 
 
