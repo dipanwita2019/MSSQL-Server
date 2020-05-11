@@ -11,7 +11,8 @@ password : yourStrong(!)Password <br/>
 Left (1433) : port in the host machine <br/>
 Right (1433) : port to the SQL docker container <br/>
 
-(For further reference to docker hub please follow: https://getadigital.com/blog/setting-up-sql-server-on-docker-in-mac-os/)
+(For further reference to docker hub please follow: https://getadigital.com/blog/setting-up-sql-server-on-docker-in-mac-os/
+https://www.alibabacloud.com/blog/using-python-to-connect-function-compute-to-sql-server_594411)
 
 # List all the running docker containers (check if the container is running and note the container id)
 docker ps -a
